@@ -23,7 +23,7 @@ int main()
 		for (j=0; j<=2; j++)
 		{
 			printf("\n->");
-			scanf("%d", &student[i].sub[j], &student[i]);
+			scanf("%d", &student[i].sub[j]);
 			
 			student[i].total =0;
 			student[i].total = student[i].sub[0]+student[i].sub[1]+student[i].sub[2];	
