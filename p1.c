@@ -24,6 +24,4 @@ int main()
 	printf("\n##--------------##\n");
 	printf("Name of the book YOu have added is: %s and it's id and price are %d and %d rs.\n",v.name,v.id,v.price);
 	
-
 }
-
