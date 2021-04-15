@@ -1,0 +1,24 @@
+i start by creating a venv (virtual environment) thats just good practice thats why. with the command python -m venv name
+
+activate it with name\Scripts\activate
+
+install django with pip install django or if there is an requirements.txt make pip install -r requirements.txt to get all packages in/for that projects
+
+to make a requirements.txt just make pip freeze > requirements.txt
+
+maka a django project with django-admin startproject name and django-admin startapp for an app
+
+after making urls,views, and the templates 
+
+we start the server and look it up in the browser with "pyton manage.py runserver
+
+need to default migrate the django things by running "python manage.py migrate"
+
+and for the model we created we need to run "python manage.py makemigrations" and after "python manage.py migrate "   
+
+bc no user is rn created we make a superuser by running "python manage.py createsuperuser".
+
+After creaeting a model and registring in admin.py we can create a Task in the admin-panel in the browser
+
+now we hook up the css/js file
+
